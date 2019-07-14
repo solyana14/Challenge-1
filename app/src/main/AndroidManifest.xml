@@ -9,8 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Profile_Activity"></activity>
-        <activity android:name=".About_ALC_Activity" />
+        <activity android:name=".Profile_Activity"
+            android:label="@string/profile"
+            android:parentActivityName=".MainActivity"
+            />
+        <activity
+            android:name=".About_ALC_Activity"
+            android:label="@string/about"
+            android:parentActivityName=".MainActivity"
+            />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

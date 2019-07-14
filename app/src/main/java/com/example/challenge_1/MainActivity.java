@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
         about.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "hello", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(MainActivity.this, About_ALC_Activity.class));
             }
         });

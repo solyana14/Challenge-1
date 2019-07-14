@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">Challenge_1</string>
+    <string name="app_name">ALC 4 Phase 1</string>
+    <string name="user_name">Solyana Mengistu</string>
+    <string name="track">Android</string>
+    <string name="country">Ethiopia</string>
+    <string name="email">solyanamengistu14@gmail.com</string>
+    <string name="phoneNumber">+251921321154</string>
+    <string name="slack_username">"@Solyana Mengistu"</string>
+    <string name="about">About ALC</string>
+    <string name="profile">My Profile</string>
 </resources>
